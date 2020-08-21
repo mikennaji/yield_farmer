@@ -1,4 +1,6 @@
-require_all  'lib'
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'yield_farmer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "yield_farmer"
@@ -26,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.add_development_dependency 'require_all'
+  
 
 end
