@@ -1,10 +1,5 @@
-require "yield_farmer/version"
+require 'nokogiri'
+require 'open-uri'
 
-module YieldFarmer
-  class Dryer
-    def something
-      `say oooooooooooooooooooooooooo`
-    end
-  end
-end
-
+require_relative './yield_farmer/version'
+require_relative './yield_farmer/controller'
