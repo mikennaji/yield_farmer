@@ -2,8 +2,9 @@ require "yield_farmer/version"
 
 module YieldFarmer
   class Dryer
-    def 
+    def something
       `say oooooooooooooooooooooooooo`
     end
   end
 end
+
