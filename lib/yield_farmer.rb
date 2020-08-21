@@ -1,6 +1,9 @@
 require "yield_farmer/version"
 
 module YieldFarmer
-  class Error < StandardError; end
-  # Your code goes here...
+  class Dryer
+    def 
+      `say oooooooooooooooooooooooooo`
+    end
+  end
 end
