@@ -1,8 +1,8 @@
-
+require_relative 'lib/yield_farmer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "yield_farmer"
-  spec.version       = '0.0.1'
+  spec.version       = YieldFarmer::VERSION
   spec.authors       = ["mikennaji"]
   spec.email         = ["tobienaji@gmail.com"]
 
