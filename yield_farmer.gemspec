@@ -1,4 +1,4 @@
-require_relative 'lib/yield_farmer/version'
+load  './lib/yield_farmer/version.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "yield_farmer"
