@@ -23,7 +23,8 @@ def url
     doc.css("div.symbol-content span.name").each do |coin|
         YieldScraper::Scraper.coins<<coin.text 
     end
-   
+ 
+end
      
 end
 
