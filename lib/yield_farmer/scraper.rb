@@ -21,7 +21,7 @@ def url
         YieldScraper::Scraper.rates<< rate.text
     end
     doc.css("div.symbol-content span.name").each do |coin|
-        YieldScraper::Scrapercoins<<coin.text 
+        YieldScraper::Scraper.coins<<coin.text 
     end
    
      
