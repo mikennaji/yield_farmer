@@ -2,33 +2,58 @@
 class YieldFarmer::Scraper
      attr_accessor :url,:coins,:exchanges,:rates
     
+     @@coins =[]
+     @@exchanges =[]
+     @@rates =[]
  
 
 
 def url
    html =open("https://defirate.com/lend/")
     doc = Nokogiri::HTML(html)
-    @rates =[]
-    @exchanges = []
-    @coins =[]
+    self.rates =[]
+    self.exchanges = []
+    self.coins =[]
     doc.css(".token-cell span.name").each do |exchange|
-        exchanges << exchange.text 
+        YieldScraper::Scraper.exchanges << exchange.text 
     end 
     doc.css(".rate-cell").each do |rate|
-       rates<< rate.text
+        YieldScraper::Scraper.rates<< rate.text
     end
     doc.css("div.symbol-content span.name").each do |coin|
-        coins<<coin.text 
+        YieldScraper::Scrapercoins<<coin.text 
     end
-    return @rates, @exchanges, @coins  
+   
      
 end
 
-def add_coins
-    @coins.each do |coin|
-        YieldFarmer::Coin.add_coin(coin)
+def  self.rates 
+    @@rates
+end 
+
+def self.exchages 
+
+    @@exchanges 
+end 
+
+def self.coins 
+    @@coins
+end 
+
+
+def self.add_coins
+    self.coins.each do |coin|
+        YieldScraper::Coin.add_coin(coin)
     end
 end 
 
+def self.add_exchanges
+    self.exchanges.each do |exchange|
+        YieldScraper::Exchange.add_Exchange(exchange)
+    end
+
 end
 
+
+
+end

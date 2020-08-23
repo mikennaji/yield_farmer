@@ -7,7 +7,7 @@ class YieldFarmer::Exchange
      
      def initialize(name)
        @name = name
-       self.all<<self
+       YieldFarmer::Exchange.all<<self
      end
   
      def self.listed_coins
@@ -18,7 +18,7 @@ class YieldFarmer::Exchange
      end 
 
      def self.add_Exchange(name)
-        if  self.all.detect{|exchange| exchange.name == name}
+        if  YieldFarmer::Exchange.all.detect{|exchange| exchange.name == name}
             return nil 
         else  
             YieldFarmer::Exchange.new(name)
