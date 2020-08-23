@@ -8,7 +8,7 @@ class YieldFarmer::InterestProducts
        @coin = coin 
        @exchange = exchange
        @rate = rate
-       self.class.all<<self  
+       YieldFarmer::InterestProducts.all<<self  
     end
 
     def self.all 
