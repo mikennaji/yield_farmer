@@ -1,5 +1,8 @@
 require 'open-uri'
 require 'nokogiri'
+require 'terminal-table'
+require 'artii'
+require 'colorize'
 
 
 require_relative './yield_farmer/version'
