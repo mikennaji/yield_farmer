@@ -26,7 +26,7 @@ def url
     doc.css("div.symbol-content span.name").each do |coin|
         self.coins<<coin.text 
     end
-
+return nil
  
 end
      
@@ -90,7 +90,7 @@ end
 def make_table_for_coins
     @store = {}
 self.coin_offerings.each_with_index do |(k, v), i|
-    p k, v, i
+    
         
        
 
