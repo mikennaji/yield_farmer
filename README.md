@@ -9,20 +9,113 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'yield_farmer'
+git clone https://github.com/mikennaji/yield_farmer.git
+cd yield_farmer
 ```
 
 And then execute:
 
-    $ bundle install
+    $ bundle exec bin/yield_farmer_gem
 
 Or install it yourself as:
 
-    $ gem install yield_farmer
+  
 
 ## Usage
 
 TODO: Write usage instructions here
+```bundle exec bin/yield_farmer_gem
+
+
+__  ___      __    __   ______                              
+\ \/ (_)__  / /___/ /  / ____/___ __________ ___  ___  _____
+ \  / / _ \/ / __  /  / /_  / __ `/ ___/ __ `__ \/ _ \/ ___/
+ / / /  __/ / /_/ /  / __/ / /_/ / /  / / / / / /  __/ /    
+/_/_/\___/_/\__,_/  /_/    \__,_/_/  /_/ /_/ /_/\___/_/     
+                                                            
+
+
+
+//////////::::::::::::-------------::::::::::::::::::::::::::::::::::::::::::::////////////////
+//:::::::-----------------------------------------------------------------------:::::::::::::::
+::::-------------------/+++oooo++/:------------------------------------------------------------
+-------------------.-/o+//////////o+:.......................------........---------------------
+...................:hNNNNdyoosso+/o/++-........................................................
+.................-sNMMMNhhhddyo+++s+//o-.......................................................
+................-hMMMMdo+++++shhhyyyy+y:.......................................................
+.........-.-..../mNNdy+/////////:///+sy/-......................................................
+-------..--------::::o+ooo+ossso+/::oodhs..-------.............................................
+osyyso+++++ooossso+//sssys++oooo+/::+ohys---------------------------..................---......
+hhhhdddddhhhdddhhhhhhh+o+soo+ssoo+//+oyhhssooooooo+++++++++++///////////::::---------......----
+dddddmmmmddmmmmddddmmy++oyyyhhsoo/::/+ymdddddddddddddmmdddmmdddddddddddddhhhhyyso++++/////+ooyy
+dddhhdddddhhhhhhddhdds//oss+oso///:/+++mhhhhhhhhyhhhyyyyyyyyyyysyyyyyyyyyyyyyyyyyyyyyhhhhhddddd
+ossoosssssoooooosssssho::/:/+//:+//+o+yhhoo+++++/////+++++++++++++++++++++++++++++++++++++++++/
+yyyhhhhhhhhhhhhhhhhhddds+/+++oosy++ooyyyhsyyso+/:::::::::::::::::::///////:::::::::::::::::::::
+oooooooooooooo+++++oyydhyooosso++oshhyhyoyhhysyhs+/-:::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::+ohshh+yoosssosyhhyyhs+shhsshdy+sys//:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::+s+syymhyh+/+oosyysshysyhdyssdmhs:o++/ys/:::::::::::::::::::::::::::::::::::::::
+::::::::::::::+y++yohmmmms::odmyyhyo+sydsosdyss:oys//yyh+::::::::::::::::::::::::::::::::::::::
+:::::::::::::/s+/dyymhyhdd/smmdmdyooyyhhosmdyo//syo:syyyy+::::::::::::::::::::::::::::://::::::
+:::::::::::::ys/smsdmy+ohdymmdhhyosssydsshmhs:+y+/+shssssh+::::::::::::::::::::::::::::+/::::::
+::::/:://:::+y+odhymds/yyhdmdhhh+oyyydyssmy+/+yys+oyhyyyyyh+::::::::::::::::::/::::://:+/::://:
++o+/+/osss//ysohmhhdyooooyyyysoo+sysohsshms+o+oh+/yddhyo+osh+::/:::/+/:::/o/o/+++/+/+oos+/::++:
+yhhysshsodyyyohdsyddodhyysyyydyyyyohyyyysyohhyh+oyyoddoshysysyssyosyssyosh+hhsshysyssyohho++oo+
+yhdhyshssdsyh+hdshyhsmdymoNooNooNdoNohyyshsyysmssdosddsyhosdsyhyyyhyohysydoddss+hodosmoshyosyyy
+yyhhhhhhhhoyyhdmhhhsyyyyhyhyysyysyyhyhhyhhhdyshhmmdmdsyyddddhmyydddhyyhyyhyhhhhhdhyhhhhdyhyyyyy
+ssyyyyyyyysyosshsdssyyssssyyyyyyssssssssshmdyhhydddmmhyyyo//:yhyyddhyyyyyyyyyyyhhhhhyyhhyyyhyyy
+
+
+
+Which coin do you want to farm?
+
+
+1. DAI
+2. USDC
+3. ETH
+4. BTC
+5. WBTC
+6. USDT
+7. MKR
+8. ZRX
+9. REP
+10. BAT
+11. ALGO
+12. BCH
+13. BUSD
+14. ENJ
+15. EOS
+16. ETC
+17. GNT
+18. GUSD
+19. KNC
+20. LINK
+21. LTC
+22. PAX
+23. REN
+24. SAI
+25. SNX
+26. SUSD
+27. TUSD
+28. XRP
+29. XTZ
+30. ZEC
+2
++------+---------------+---------+
+| Coin | Exchange      | Rate    |
++------+---------------+---------+
+| USDC |  Compound v2  |  1.79%  |
+| USDC |  Aave         |  3.09%  |
+| USDC |  dYdX         |  4.45%  |
+| USDC |  Fulcrum      |  41.83% |
+| USDC |  Nuo          |  7.53%  |
+| USDC |  BlockFi      |  8.6%   |
+| USDC |  CoinList     |  0.8%   |
+| USDC |  Bitfinex     | –       |
+| USDC |  Poloniex     |  6.72%  |
+| USDC |  Maker        | –       |
+| USDC |  Coinbase     |  0.15%  |
+| USDC |  Crypto.com   | –       |
++------+---------------+---------+```
 
 ## Development
 
