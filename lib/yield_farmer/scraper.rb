@@ -96,11 +96,11 @@ self.coin_offerings.each_with_index do |(k, v), i|
 
         @store[k] = Terminal::Table.new :headings => ['Coin','Exchange','Rate'] do |t|
             v.each do  |product|
-            if product.rate != "–"
+           
             t<< [product.coin.name,product.exchange.name,product.rate.colorize(:green)]
-            else  
-            t<< [product.coin.name,product.exchange.name,product.rate]
-            end
+            
+  
+            
         end 
         
     end
