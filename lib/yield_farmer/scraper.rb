@@ -23,7 +23,7 @@ def url
     doc.css(".rate-cell").each do |rate|
         self.rates<< rate.text
     end
-    doc.css("div.symbol-content span.name").each do |coin|
+    doc.css(".symbol-content span.name").each do |coin|
         self.coins<<coin.text 
     end
 return nil
